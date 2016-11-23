@@ -6,8 +6,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
         <!-- Project dependant variables -->
-        <custom.path>ch/fhnw/lernstickwelcome</custom.path>
-        <custom.main.class>ch.fhnw.lernstickwelcome.Welcome</custom.main.class>
+        <custom.path>ch/fhnw/debianlivecopy</custom.path>
+        <custom.main.class>ch.fhnw.debianlivecopy.LiveCopy</custom.main.class>
         <custom.checkstyle>config/checkstyle.xml</custom.checkstyle>
 
         <!-- Project independant variables -->

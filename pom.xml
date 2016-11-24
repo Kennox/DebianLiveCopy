@@ -203,6 +203,22 @@
 			<version>2</version>
 		</dependency>
 
+        <!-- jBackpack -->
+        <dependency>
+            <groupId>com.github.Kennox</groupId>
+            <artifactId>jbackpack</artifactId>
+            <version>1</version>
+        </dependency>
+
+		<!-- File Copy Library -->
+		<dependency>
+			<groupId>ch.fhnw</groupId>
+			<artifactId>filecopier</artifactId>
+			<version>0.9.7</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/libs/java_file_copy_library-0.9.7.jar</systemPath>
+		</dependency>
+
 	</dependencies>
 
 </project>

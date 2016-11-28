@@ -6,12 +6,13 @@
     <version>0.0.1-SNAPSHOT</version>
     <properties>
         <!-- Project dependant variables -->
-        <custom.path>ch/fhnw/dlcopy</custom.path>
-        <custom.main.class>ch.fhnw.dlcopy.DLCopy</custom.main.class>
+        <custom.path>ch/fhnw/dlcopyfx</custom.path>
+        <custom.main.class>ch.ch.fhnw.dlcopyfx.DlCopyApp</custom.main.class>
         <custom.checkstyle>config/checkstyle.xml</custom.checkstyle>
 
         <!-- Project independant variables -->
         <custom.source>src/${custom.path}</custom.source>
+        <custom.test.source>test/${custom.path}</custom.test.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- To make the output of the javadoc support utf-8 -->
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -30,6 +31,8 @@
 
     <build>
         <sourceDirectory>${custom.source}</sourceDirectory>
+        <testSourceDirectory>${custom.test.source}</testSourceDirectory>
+        
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -72,8 +75,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-
 
             <!-- add resources like *.properties files to the build -->
             <plugin>

@@ -30,7 +30,6 @@
 
     <build>
         <sourceDirectory>${custom.source}</sourceDirectory>
-
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -221,7 +220,7 @@
         <!-- File Copy Library -->
         <!--
         This is a jar from a local maven repository, use the following command:
-        mvn install:install-file -Dfile=<path>/java_file_copy_library-0.9.7.jar -DgroupId=ch.fhnw -DartifactId=java_file_copy_library -Dversion=0.9.7 -Dpackaging=jar
+        mvn install:install-file -Dfile=<path>/ch/fhnw/java_file_copy_library/0.9.7/java_file_copy_library-0.9.7.jar -DgroupId=ch.fhnw -DartifactId=java_file_copy_library -Dversion=0.9.7 -Dpackaging=jar
         to make it available, change <path> to the path of the libs/ directory in this project
         -->
         <dependency>

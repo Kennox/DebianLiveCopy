@@ -8,7 +8,7 @@ public class DlCopyView extends Parent { // change Parent to GridPane etc.
 
   //declare all elements here
 
-  /** Javadoc comment here */
+  /** Javadoc comment here. */
   public DlCopyView(DlCopy model) {
     this.model = model;
 

@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>ch.fhnw</groupId>
-	<artifactId>DebianLiveCopy</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<properties>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ch.fhnw</groupId>
+    <artifactId>DebianLiveCopy</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <properties>
         <!-- Project dependant variables -->
         <custom.path>ch/fhnw/dlcopy</custom.path>
         <custom.main.class>ch.fhnw.dlcopy.DLCopy</custom.main.class>
@@ -13,42 +13,45 @@
         <!-- Project independant variables -->
         <custom.source>src/${custom.path}</custom.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<!-- To make the output of the javadoc support utf-8 -->
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-	</properties>
+        <!-- To make the output of the javadoc support utf-8 -->
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
 
-	<repositories>
-		<repository>
-			<id>jitpack.io</id>
-			<url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+        <repository>
+            <id>local-libs-jar</id>
+            <url>file://${basedir}/libs</url>
+        </repository>
+    </repositories>
 
-	<build>
+    <build>
         <sourceDirectory>${custom.source}</sourceDirectory>
-
         <plugins>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.3</version>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
-			</plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
 
             <!-- checkstyle plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
                 <version>2.17</version>
-		    <dependencies>
-            				<dependency>
-					      <groupId>com.puppycrawl.tools</groupId>
-					      <artifactId>checkstyle</artifactId>
-					      <version>7.2</version>
-					</dependency>
-				</dependencies>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.puppycrawl.tools</groupId>
+                        <artifactId>checkstyle</artifactId>
+                        <version>7.2</version>
+                    </dependency>
+                </dependencies>
                 <configuration>
                     <configLocation>${custom.checkstyle}</configLocation>
                     <encoding>UTF-8</encoding>
@@ -69,6 +72,8 @@
                     </execution>
                 </executions>
             </plugin>
+
+
 
             <!-- add resources like *.properties files to the build -->
             <plugin>
@@ -110,8 +115,10 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
+                            <minimizeJar>true</minimizeJar>
                             <transformers>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <transformer
+                                        implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>${custom.main.class}</mainClass>
                                 </transformer>
                             </transformers>
@@ -119,16 +126,16 @@
                     </execution>
                 </executions>
             </plugin>
-		</plugins>
-	</build>
+        </plugins>
+    </build>
 
-	<reporting>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>2.17</version>
-				<configuration>
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>2.17</version>
+                <configuration>
                     <configLocation>${custom.checkstyle}</configLocation>
                     <violationSeverity>warning</violationSeverity>
                     <!-- don't have the build fail because of checkstyle yet
@@ -136,72 +143,72 @@
                     -->
                     <consoleOutput>true</consoleOutput>
 
-				</configuration>
-			</plugin>
+                </configuration>
+            </plugin>
 
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.10.4</version>
-				<configuration>
-					<charset>UTF-8</charset>
-				</configuration>
-				<reportSets>
-					<reportSet>
-						<id>default</id>
-						<reports>
-							<report>javadoc</report>
-						</reports>
-					</reportSet>
-				</reportSets>
-			</plugin>
-		</plugins>
-	</reporting>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.10.4</version>
+                <configuration>
+                    <charset>UTF-8</charset>
+                </configuration>
+                <reportSets>
+                    <reportSet>
+                        <id>default</id>
+                        <reports>
+                            <report>javadoc</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
+            </plugin>
+        </plugins>
+    </reporting>
 
-	<dependencies>
-		<!-- dbus.jar -->
-		<dependency>
-			<groupId>com.github.bdeneuter</groupId>
-			<artifactId>dbus-java</artifactId>
-			<version>[2.7,]</version>
-		</dependency>
+    <dependencies>
+        <!-- dbus.jar -->
+        <dependency>
+            <groupId>com.github.bdeneuter</groupId>
+            <artifactId>dbus-java</artifactId>
+            <version>[2.7,]</version>
+        </dependency>
 
-		<!-- derby.jar -->
-		<dependency>
-			<groupId>org.apache.derby</groupId>
-			<artifactId>derby</artifactId>
-			<version>[10.13.1.1,]</version>
-			<optional>false</optional>
-		</dependency>
+        <!-- derby.jar -->
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derby</artifactId>
+            <version>[10.13.1.1,]</version>
+            <optional>false</optional>
+        </dependency>
 
-		<!-- hexdump.jar -->
-		<dependency>
-			<groupId>org.abstractj.libmatthew</groupId>
-			<artifactId>hexdump</artifactId>
-			<version>[0.2.1,]</version>
-		</dependency>
+        <!-- hexdump.jar -->
+        <dependency>
+            <groupId>org.abstractj.libmatthew</groupId>
+            <artifactId>hexdump</artifactId>
+            <version>[0.2.1,]</version>
+        </dependency>
 
-		<!-- unix.jar -->
-		<dependency>
-			<groupId>org.abstractj.libmatthew</groupId>
-			<artifactId>unix</artifactId>
-			<version>[0.5.1,]</version>
-		</dependency>
+        <!-- unix.jar -->
+        <dependency>
+            <groupId>org.abstractj.libmatthew</groupId>
+            <artifactId>unix</artifactId>
+            <version>[0.5.1,]</version>
+        </dependency>
 
-		<!-- JUnit -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>[4.12,]</version>
-			<scope>test</scope>
-		</dependency>
+        <!-- JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>[4.12,]</version>
+            <scope>test</scope>
+        </dependency>
 
         <!-- lernstickTools -->
-		<dependency>
-			<groupId>com.github.Kennox</groupId>
-			<artifactId>lernstickTools</artifactId>
-			<version>2</version>
-		</dependency>
+        <dependency>
+            <groupId>com.github.Kennox</groupId>
+            <artifactId>lernstickTools</artifactId>
+            <version>2</version>
+        </dependency>
 
         <!-- jBackpack -->
         <dependency>
@@ -210,15 +217,18 @@
             <version>1</version>
         </dependency>
 
-		<!-- File Copy Library -->
-		<dependency>
-			<groupId>ch.fhnw</groupId>
-			<artifactId>filecopier</artifactId>
-			<version>0.9.7</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/libs/java_file_copy_library-0.9.7.jar</systemPath>
-		</dependency>
+        <!-- File Copy Library -->
+        <!--
+        This is a jar from a local maven repository, use the following command:
+        mvn install:install-file -Dfile=<path>/java_file_copy_library-0.9.7.jar -DgroupId=ch.fhnw -DartifactId=java_file_copy_library -Dversion=0.9.7 -Dpackaging=jar
+        to make it available, change <path> to the path of the libs/ directory in this project
+        -->
+        <dependency>
+            <groupId>ch.fhnw</groupId>
+            <artifactId>java_file_copy_library</artifactId>
+            <version>0.9.7</version>
+        </dependency>
 
-	</dependencies>
+    </dependencies>
 
 </project>

@@ -10,85 +10,85 @@
     </SuppressionFilter>
   </Project>
   <BugInstance type="EI_EXPOSE_REP" priority="2" abbrev="EI" category="MALICIOUS_CODE">
-    <Class classname="ch.fhnw.filecopier.CopyJob">
-      <SourceLine classname="ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <Class classname="ch.ch.fhnw.filecopier.CopyJob">
+      <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
     </Class>
-    <Method classname="ch.fhnw.filecopier.CopyJob" name="getDestinations" signature="()[Ljava/lang/String;" isStatic="false">
-      <SourceLine classname="ch.fhnw.filecopier.CopyJob" start="62" end="62" startBytecode="0" endBytecode="46" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <Method classname="ch.ch.fhnw.filecopier.CopyJob" name="getDestinations" signature="()[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" start="62" end="62" startBytecode="0" endBytecode="46" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
     </Method>
-    <Field classname="ch.fhnw.filecopier.CopyJob" name="destinations" signature="[Ljava/lang/String;" isStatic="false">
-      <SourceLine classname="ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <Field classname="ch.ch.fhnw.filecopier.CopyJob" name="destinations" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
     </Field>
-    <SourceLine classname="ch.fhnw.filecopier.CopyJob" start="62" end="62" startBytecode="4" endBytecode="4" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" start="62" end="62" startBytecode="4" endBytecode="4" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
   </BugInstance>
   <BugInstance type="EI_EXPOSE_REP" priority="2" abbrev="EI" category="MALICIOUS_CODE">
-    <Class classname="ch.fhnw.filecopier.CopyJob">
-      <SourceLine classname="ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <Class classname="ch.ch.fhnw.filecopier.CopyJob">
+      <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
     </Class>
-    <Method classname="ch.fhnw.filecopier.CopyJob" name="getSources" signature="()[Ljava/lang/String;" isStatic="false">
-      <SourceLine classname="ch.fhnw.filecopier.CopyJob" start="54" end="54" startBytecode="0" endBytecode="46" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <Method classname="ch.ch.fhnw.filecopier.CopyJob" name="getSources" signature="()[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" start="54" end="54" startBytecode="0" endBytecode="46" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
     </Method>
-    <Field classname="ch.fhnw.filecopier.CopyJob" name="sources" signature="[Ljava/lang/String;" isStatic="false">
-      <SourceLine classname="ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <Field classname="ch.ch.fhnw.filecopier.CopyJob" name="sources" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
     </Field>
-    <SourceLine classname="ch.fhnw.filecopier.CopyJob" start="54" end="54" startBytecode="4" endBytecode="4" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" start="54" end="54" startBytecode="4" endBytecode="4" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
   </BugInstance>
   <BugInstance type="EI_EXPOSE_REP2" priority="2" abbrev="EI2" category="MALICIOUS_CODE">
-    <Class classname="ch.fhnw.filecopier.CopyJob">
-      <SourceLine classname="ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <Class classname="ch.ch.fhnw.filecopier.CopyJob">
+      <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
     </Class>
-    <Method classname="ch.fhnw.filecopier.CopyJob" name="&lt;init&gt;" signature="([Ljava/lang/String;[Ljava/lang/String;Z)V" isStatic="false">
-      <SourceLine classname="ch.fhnw.filecopier.CopyJob" start="43" end="47" startBytecode="0" endBytecode="107" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <Method classname="ch.ch.fhnw.filecopier.CopyJob" name="&lt;init&gt;" signature="([Ljava/lang/String;[Ljava/lang/String;Z)V" isStatic="false">
+      <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" start="43" end="47" startBytecode="0" endBytecode="107" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
     </Method>
-    <Field classname="ch.fhnw.filecopier.CopyJob" name="destinations" signature="[Ljava/lang/String;" isStatic="false">
-      <SourceLine classname="ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <Field classname="ch.ch.fhnw.filecopier.CopyJob" name="destinations" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
     </Field>
     <LocalVariable name="destinations" register="2" pc="11" role="LOCAL_VARIABLE_NAMED"/>
-    <SourceLine classname="ch.fhnw.filecopier.CopyJob" start="45" end="45" startBytecode="11" endBytecode="11" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" start="45" end="45" startBytecode="11" endBytecode="11" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
   </BugInstance>
   <BugInstance type="EI_EXPOSE_REP2" priority="2" abbrev="EI2" category="MALICIOUS_CODE">
-    <Class classname="ch.fhnw.filecopier.CopyJob">
-      <SourceLine classname="ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <Class classname="ch.ch.fhnw.filecopier.CopyJob">
+      <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
     </Class>
-    <Method classname="ch.fhnw.filecopier.CopyJob" name="&lt;init&gt;" signature="([Ljava/lang/String;[Ljava/lang/String;Z)V" isStatic="false">
-      <SourceLine classname="ch.fhnw.filecopier.CopyJob" start="43" end="47" startBytecode="0" endBytecode="107" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <Method classname="ch.ch.fhnw.filecopier.CopyJob" name="&lt;init&gt;" signature="([Ljava/lang/String;[Ljava/lang/String;Z)V" isStatic="false">
+      <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" start="43" end="47" startBytecode="0" endBytecode="107" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
     </Method>
-    <Field classname="ch.fhnw.filecopier.CopyJob" name="sources" signature="[Ljava/lang/String;" isStatic="false">
-      <SourceLine classname="ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <Field classname="ch.ch.fhnw.filecopier.CopyJob" name="sources" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
     </Field>
     <LocalVariable name="sources" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
-    <SourceLine classname="ch.fhnw.filecopier.CopyJob" start="44" end="44" startBytecode="6" endBytecode="6" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
+    <SourceLine classname="ch.ch.fhnw.filecopier.CopyJob" start="44" end="44" startBytecode="6" endBytecode="6" sourcefile="CopyJob.java" sourcepath="ch/fhnw/filecopier/CopyJob.java"/>
   </BugInstance>
   <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" abbrev="RV" category="BAD_PRACTICE">
-    <Class classname="ch.fhnw.filecopier.FileCopier">
-      <SourceLine classname="ch.fhnw.filecopier.FileCopier" sourcefile="FileCopier.java" sourcepath="ch/fhnw/filecopier/FileCopier.java"/>
+    <Class classname="ch.ch.fhnw.filecopier.FileCopier">
+      <SourceLine classname="ch.ch.fhnw.filecopier.FileCopier" sourcefile="FileCopier.java" sourcepath="ch/fhnw/filecopier/FileCopier.java"/>
     </Class>
-    <Method classname="ch.fhnw.filecopier.FileCopier" name="copyFile" signature="(Ljava/io/File;[Ljava/io/File;)V" isStatic="false">
-      <SourceLine classname="ch.fhnw.filecopier.FileCopier" start="450" end="545" startBytecode="0" endBytecode="949" sourcefile="FileCopier.java" sourcepath="ch/fhnw/filecopier/FileCopier.java"/>
+    <Method classname="ch.ch.fhnw.filecopier.FileCopier" name="copyFile" signature="(Ljava/io/File;[Ljava/io/File;)V" isStatic="false">
+      <SourceLine classname="ch.ch.fhnw.filecopier.FileCopier" start="450" end="545" startBytecode="0" endBytecode="949" sourcefile="FileCopier.java" sourcepath="ch/fhnw/filecopier/FileCopier.java"/>
     </Method>
     <Method classname="java.io.File" name="createNewFile" signature="()Z" isStatic="false" role="METHOD_CALLED">
       <SourceLine classname="java.io.File" start="881" end="883" startBytecode="0" endBytecode="58" sourcefile="File.java" sourcepath="java/io/File.java"/>
     </Method>
-    <SourceLine classname="ch.fhnw.filecopier.FileCopier" start="466" end="466" startBytecode="133" endBytecode="133" sourcefile="FileCopier.java" sourcepath="ch/fhnw/filecopier/FileCopier.java"/>
+    <SourceLine classname="ch.ch.fhnw.filecopier.FileCopier" start="466" end="466" startBytecode="133" endBytecode="133" sourcefile="FileCopier.java" sourcepath="ch/fhnw/filecopier/FileCopier.java"/>
   </BugInstance>
   <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
-    <Class classname="ch.fhnw.filecopier.ProcessExecutor">
-      <SourceLine classname="ch.fhnw.filecopier.ProcessExecutor" sourcefile="ProcessExecutor.java" sourcepath="ch/fhnw/filecopier/ProcessExecutor.java"/>
+    <Class classname="ch.ch.fhnw.filecopier.ProcessExecutor">
+      <SourceLine classname="ch.ch.fhnw.filecopier.ProcessExecutor" sourcefile="ProcessExecutor.java" sourcepath="ch/fhnw/filecopier/ProcessExecutor.java"/>
     </Class>
-    <Method classname="ch.fhnw.filecopier.ProcessExecutor" name="createScript" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="false">
-      <SourceLine classname="ch.fhnw.filecopier.ProcessExecutor" start="32" end="39" startBytecode="0" endBytecode="192" sourcefile="ProcessExecutor.java" sourcepath="ch/fhnw/filecopier/ProcessExecutor.java"/>
+    <Method classname="ch.ch.fhnw.filecopier.ProcessExecutor" name="createScript" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="ch.ch.fhnw.filecopier.ProcessExecutor" start="32" end="39" startBytecode="0" endBytecode="192" sourcefile="ProcessExecutor.java" sourcepath="ch/fhnw/filecopier/ProcessExecutor.java"/>
     </Method>
     <Class classname="java.io.Writer" role="CLASS_REFTYPE">
       <SourceLine classname="java.io.Writer" sourcefile="Writer.java" sourcepath="java/io/Writer.java"/>
     </Class>
     <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
-    <SourceLine classname="ch.fhnw.filecopier.ProcessExecutor" start="34" end="34" startBytecode="37" endBytecode="37" sourcefile="ProcessExecutor.java" sourcepath="ch/fhnw/filecopier/ProcessExecutor.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
-    <SourceLine classname="ch.fhnw.filecopier.ProcessExecutor" start="35" end="35" startBytecode="41" endBytecode="41" sourcefile="ProcessExecutor.java" sourcepath="ch/fhnw/filecopier/ProcessExecutor.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ch.ch.fhnw.filecopier.ProcessExecutor" start="34" end="34" startBytecode="37" endBytecode="37" sourcefile="ProcessExecutor.java" sourcepath="ch/fhnw/filecopier/ProcessExecutor.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ch.ch.fhnw.filecopier.ProcessExecutor" start="35" end="35" startBytecode="41" endBytecode="41" sourcefile="ProcessExecutor.java" sourcepath="ch/fhnw/filecopier/ProcessExecutor.java" role="SOURCE_LINE_PATH_CONTINUES"/>
     <String value="{Writer x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
   </BugInstance>
   <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE">
-    <Class classname="ch.fhnw.filecopier.ProcessExecutor$StreamReader">
-      <SourceLine classname="ch.fhnw.filecopier.ProcessExecutor$StreamReader" sourcefile="ProcessExecutor.java" sourcepath="ch/fhnw/filecopier/ProcessExecutor.java"/>
+    <Class classname="ch.ch.fhnw.filecopier.ProcessExecutor$StreamReader">
+      <SourceLine classname="ch.ch.fhnw.filecopier.ProcessExecutor$StreamReader" sourcefile="ProcessExecutor.java" sourcepath="ch/fhnw/filecopier/ProcessExecutor.java"/>
     </Class>
   </BugInstance>
   <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" abbrev="DMI" category="STYLE">
@@ -2228,19 +2228,19 @@
   </BugInstance>
   <Errors errors="0" missingClasses="0"></Errors>
   <FindBugsSummary timestamp="Sun, 1 Nov 2009 21:31:20 +0100" total_classes="46" referenced_classes="433" total_bugs="44" total_size="2595" num_packages="2" vm_version="11.2-b01" cpu_seconds="52.72" clock_seconds="1132.45" peak_mbytes="226.17" alloc_mbytes="739.56" gc_seconds="5.71" priority_2="44">
-    <PackageStats package="ch.fhnw.filecopier" total_bugs="7" total_types="12" total_size="630" priority_2="7">
-      <ClassStats class="ch.fhnw.filecopier.CopyJob" sourceFile="CopyJob.java" interface="false" size="22" bugs="4" priority_2="4"/>
-      <ClassStats class="ch.fhnw.filecopier.DirectoryInfo" sourceFile="DirectoryInfo.java" interface="false" size="16" bugs="0"/>
-      <ClassStats class="ch.fhnw.filecopier.FileCopier" sourceFile="FileCopier.java" interface="false" size="266" bugs="1" priority_2="1"/>
-      <ClassStats class="ch.fhnw.filecopier.FileCopier$1" sourceFile="FileCopier.java" interface="false" size="23" bugs="0"/>
-      <ClassStats class="ch.fhnw.filecopier.FileCopier$State" sourceFile="FileCopier.java" interface="false" size="15" bugs="0"/>
-      <ClassStats class="ch.fhnw.filecopier.FileCopier$Transferrer" sourceFile="FileCopier.java" interface="false" size="39" bugs="0"/>
-      <ClassStats class="ch.fhnw.filecopier.FileCopierPanel" sourceFile="FileCopierPanel.java" interface="false" size="102" bugs="0"/>
-      <ClassStats class="ch.fhnw.filecopier.FileCopierPanel$1" sourceFile="FileCopierPanel.java" interface="false" size="21" bugs="0"/>
-      <ClassStats class="ch.fhnw.filecopier.FileCopierPanel$2" sourceFile="FileCopierPanel.java" interface="false" size="38" bugs="0"/>
-      <ClassStats class="ch.fhnw.filecopier.FileCopierPanel$3" sourceFile="FileCopierPanel.java" interface="false" size="4" bugs="0"/>
-      <ClassStats class="ch.fhnw.filecopier.ProcessExecutor" sourceFile="ProcessExecutor.java" interface="false" size="56" bugs="1" priority_2="1"/>
-      <ClassStats class="ch.fhnw.filecopier.ProcessExecutor$StreamReader" sourceFile="ProcessExecutor.java" interface="false" size="28" bugs="1" priority_2="1"/>
+    <PackageStats package="ch.ch.fhnw.filecopier" total_bugs="7" total_types="12" total_size="630" priority_2="7">
+      <ClassStats class="ch.ch.fhnw.filecopier.CopyJob" sourceFile="CopyJob.java" interface="false" size="22" bugs="4" priority_2="4"/>
+      <ClassStats class="ch.ch.fhnw.filecopier.DirectoryInfo" sourceFile="DirectoryInfo.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="ch.ch.fhnw.filecopier.FileCopier" sourceFile="FileCopier.java" interface="false" size="266" bugs="1" priority_2="1"/>
+      <ClassStats class="ch.ch.fhnw.filecopier.FileCopier$1" sourceFile="FileCopier.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="ch.ch.fhnw.filecopier.FileCopier$State" sourceFile="FileCopier.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="ch.ch.fhnw.filecopier.FileCopier$Transferrer" sourceFile="FileCopier.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="ch.ch.fhnw.filecopier.FileCopierPanel" sourceFile="FileCopierPanel.java" interface="false" size="102" bugs="0"/>
+      <ClassStats class="ch.ch.fhnw.filecopier.FileCopierPanel$1" sourceFile="FileCopierPanel.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="ch.ch.fhnw.filecopier.FileCopierPanel$2" sourceFile="FileCopierPanel.java" interface="false" size="38" bugs="0"/>
+      <ClassStats class="ch.ch.fhnw.filecopier.FileCopierPanel$3" sourceFile="FileCopierPanel.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="ch.ch.fhnw.filecopier.ProcessExecutor" sourceFile="ProcessExecutor.java" interface="false" size="56" bugs="1" priority_2="1"/>
+      <ClassStats class="ch.ch.fhnw.filecopier.ProcessExecutor$StreamReader" sourceFile="ProcessExecutor.java" interface="false" size="28" bugs="1" priority_2="1"/>
     </PackageStats>
     <PackageStats package="dlcopy" total_bugs="37" total_types="34" total_size="1965" priority_2="37">
       <ClassStats class="dlcopy.DLCopy" sourceFile="DLCopy.java" interface="false" size="1046" bugs="18" priority_2="18"/>

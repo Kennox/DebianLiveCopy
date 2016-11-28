@@ -20,7 +20,7 @@
                 excludes="META-INF/**"/>
             <manifest>
                 <attribute name="Class-Path" value="/usr/share/java/dbus.jar /usr/share/java/unix.jar /usr/share/java/hexdump.jar"/>
-                <attribute name="Main-Class" value="ch.fhnw.dlcopy.DLCopy"/>
+                <attribute name="Main-Class" value="ch.ch.fhnw.dlcopy.DLCopy"/>
             </manifest>
         </jar>
     </target>
@@ -36,7 +36,7 @@
                 excludes="META-INF/**"/>
             <manifest>
                 <attribute name="Class-Path" value="/usr/share/java/dbus.jar /usr/share/java/unix.jar /usr/share/java/hexdump.jar"/>
-                <attribute name="Main-Class" value="ch.fhnw.dlcopy.DLCopy"/>
+                <attribute name="Main-Class" value="ch.ch.fhnw.dlcopy.DLCopy"/>
             </manifest>
         </jar>
         <jar destfile="dist/DLCopy_full.jar" basedir="src" update="true"/>
@@ -45,7 +45,7 @@
     <target name="1_debian_packages">
         <!-- build debian package -->
         <exec executable="dpkg-buildpackage">
-            <arg value="-mronny.standtke@fhnw.ch"/>
+            <arg value="-mronny.standtke@ch.fhnw.ch"/>
         </exec>
         <exec executable="fakeroot">
             <arg value="debian/rules"/>

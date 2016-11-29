@@ -5,7 +5,7 @@ import org.junit.Test;
 
 
 /**
- * Created by user on 28.11.16.
+ *
  */
 public class DlCopyTest {
   @Before

@@ -6,7 +6,7 @@ public class DlCopyPresenter {
   private final DlCopy model;
   private final DlCopyView view;
 
-  /** Javadoc comment here */
+  /** Javadoc comment here. */
   public DlCopyPresenter(DlCopy model, DlCopyView view) {
     this.model = model;
     this.view = view;

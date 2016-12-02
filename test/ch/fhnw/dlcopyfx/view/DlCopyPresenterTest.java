@@ -1,16 +1,16 @@
 package ch.fhnw.dlcopyfx.view;
 
+//import static org.junit.Assert.*; Don't import with the * notation.
 import org.junit.Before;
 
-import static org.junit.Assert.*;
-
 /**
- * Created by user on 28.11.16.
+ * JavaDoc comment here.
  */
 public class DlCopyPresenterTest {
-    @Before
-    public void setUp() throws Exception {
 
-    }
+  @Before
+  public void setUp() throws Exception {
+
+  }
 
 }
